@@ -1,7 +1,7 @@
 # Creating a VPC in aws with openvpn access
-This terraform setup will deploy an openvpn server with certs signed by letsencrypt that gives the user access to VPC that has internet access. Based on this, it's easy to set up a pivate lab that they can subsequently deploy private machines to.
+This terraform setup will deploy an openvpn server with certs signed by letsencrypt that gives the user access to a VPC that has a public and private subnet. Based on this, it's easy to set up a lab that other devices can be deployed to.
 
-It's a combination of a bunch of older terraform tutorials that no longer work/weren't quite what I was looking for, hopefully it'll help someone do something cool!
+Ultimately this is a combination of a bunch of older terraform tutorials that no longer work/weren't quite what I was looking for, hopefully it'll help someone do something cool!
 
 ## Usage
 1. Create a Identity on amazon eith full ec2 and route53 permissions
